@@ -2,8 +2,8 @@
 name: Sean's Blog
 email: buptsunson@gmail.com
 author: Sean Sun 
-url: 
-resume_site: 
+url: https://seansun32.github.io/my_blog/ 
+resume_site: https://seansun32.github.io/my_blog/
 github: https://github.com/seansun32/
 baseurl: "/my_blog"
 description: Just Test

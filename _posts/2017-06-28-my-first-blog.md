@@ -15,7 +15,7 @@ First POST build by Jekyll.
 markdown header test
 ==================
 
-##This is H2
+##This is H2##
 
 ###This is H3
 

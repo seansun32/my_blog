@@ -6,10 +6,10 @@ url: https://seansun32.github.io/my_blog/
 resume_site: https://seansun32.github.io/my_blog/
 github: https://github.com/seansun32/
 baseurl: "/my_blog"
-description: Just Test
-meta_description: 孙逊;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+description: Hello World
+meta_description: 孙逊;个人博客;一人能之,己百之;人十能之,己千之;生命不止;折腾不休
+motto: Just do it
+banner: 一人能之,己百之;人十能之,己千之
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/

@@ -75,6 +75,7 @@ typedef struct {
 
 可以通过一副图来说明ngx_pool_t和ngx_pool_data_t的关系
 [图片来源](http://blog.csdn.net/chen19870707/article/details/41015613)
+
 ![nginx pic1](../../../../styles/images/nginx/nginx1/ngx_pool_1.jpg)
 
 图中可以看到，在该内存池的链表中，只有链表头节点才有max，current，large等元素，
@@ -100,6 +101,7 @@ struct ngx_pool_large_s {
 
 继续用图片来说明
 [图片来源](http://blog.csdn.net/chen19870707/article/details/41015613)
+
 ![nginx pic1](../../../../styles/images/nginx/nginx1/ngx_pool_2.png)
 
 
@@ -124,6 +126,7 @@ struct ngx_pool_cleanup_s {
 
 数据结构的关系见图
 [图片来源](http://blog.csdn.net/chen19870707/article/details/41015613)
+
 ![nginx pic1](../../../../styles/images/nginx/nginx1/ngx_pool_3.png)
 
 
@@ -160,7 +163,7 @@ ngx_create_pool(size_t size, ngx_log_t *log)
 
     //可用的size需减去存储该结构体本身的空间
     size = size - sizeof(ngx_pool_t);
-    /／设置p->max,如过需分配的空间超过p->max,则需用大块内存链表
+    //设置p->max,如过需分配的空间超过p->max,则需用大块内存链表
     p->max = (size < NGX_MAX_ALLOC_FROM_POOL) ? size : NGX_MAX_ALLOC_FROM_POOL;
     
     //初始化各元素
@@ -509,5 +512,6 @@ ngx_pool_t在销毁内存时，有时需要同时清理其他的外部资源，�
 
 参考资料
 ===
+
 [菜鸟nginx源码剖析数据结构篇（九） 内存池ngx_pool_t](http://blog.csdn.net/chen19870707/article/details/41015613)
 

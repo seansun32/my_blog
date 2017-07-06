@@ -16,6 +16,7 @@ tag:        Nginx系列
 ngx_queue_t就是一个**双向循环链表**,并且是**轻量级**，这种链表的写法值得借鉴，
 其具体实现类似于linux kernel里的list.h。下面就来具体学习。
 
+---
 
 数据结构
 ===
@@ -62,6 +63,7 @@ struct int_s{
 ```
 实例化这两个数据结构，调用相关接口就能实现对链表的添加，删除等操作
 
+---
 
 相关函数
 ===
@@ -144,6 +146,7 @@ struct int_s{
 ```
 逻辑见下图
 [图片来源](http://blog.csdn.net/livelylittlefish/article/details/6607324)
+
 ![ngx pic](../../../../styles/images/nginx/nginx2/ngx_2_1.jpeg)
 
 
@@ -162,9 +165,10 @@ struct int_s{
 ```
 逻辑见下图
 [图片来源](http://blog.csdn.net/livelylittlefish/article/details/6607324)
+
 ![ngx pic](../../../../styles/images/nginx/nginx2/ngx_2_2.jpeg)
 
-
+---
 
 测试用例
 ===
@@ -270,3 +274,9 @@ int main(){
 
 }
 ```
+---
+
+参考资料
+===
+
+[nginx源码分析—队列结构ngx_queue_t](http://blog.csdn.net/livelylittlefish/article/details/6607324)

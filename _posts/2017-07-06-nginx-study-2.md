@@ -276,6 +276,11 @@ int main(){
 ```
 ---
 
+测试代码
+===
+
+[见github](https://github.com/seansun32/nginx_leanring_practice_code/tree/master/test_ngx_queue)
+
 参考资料
 ===
 

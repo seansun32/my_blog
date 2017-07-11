@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Nginx源码学习1--数据结构:内存池"
+title:      "Nginx源码学习1---数据结构:内存池"
 date:       2017-06-28 14:55:56 +0800
 categories: 源码学习
 tag:        Nginx系列
@@ -509,6 +509,13 @@ ngx_pool_t在销毁内存时，有时需要同时清理其他的外部资源，�
 此时就需要用ngx_pool_cleanup_t的链表，调用handler注册的函数进行清理
 
 ---
+
+
+测试代码
+===
+
+[见github](https://github.com/seansun32/nginx_leanring_practice_code/tree/master/test_ngx_pool)
+
 
 参考资料
 ===

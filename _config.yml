@@ -5,7 +5,7 @@ author: Sean Sun
 url: https://seansun32.github.io/my_blog/ 
 resume_site: https://seansun32.github.io/my_blog/
 github: https://github.com/seansun32/
-baseurl: "/my_blog"
+baseurl: #"/my_blog"
 description: Hello World
 meta_description: 孙逊;个人博客;一人能之,己百之;人十能之,己千之;生命不止;折腾不休
 motto: Just do it

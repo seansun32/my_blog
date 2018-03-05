@@ -77,6 +77,12 @@ markdown list test
 
 ---
 
+markdown mathjax render
+===
+https://webdemo.myscript.com/views/math.html#
+https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn
+
+
 markdown code test
 ===================
 

@@ -39,6 +39,12 @@ markdwon quote test
 
 $$
 \frac{7x+5}{1+y^2}
+
+\begin{pmatrix}
+1 &  2&3 \\ 
+ 4&  5&6 
+\end{pmatrix}
+
 $$
 
 ---

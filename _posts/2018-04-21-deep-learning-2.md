@@ -18,7 +18,7 @@ tag: DeepLearning学习
 image和filter的点乘，即为列向量与行向量的矩阵相乘
 
 参见图例：
-![test img](../styles/images/deep_learning/2/fastconv.png)
+![test img](../../../../styles/images/deep_learning/2/fastconv.jpg)
 
 
 我会在github中上传相应的方法。

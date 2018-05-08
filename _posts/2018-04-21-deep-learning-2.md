@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python+numpy实现卷积神经网络1"
+title:  "python+numpy实现卷积神经网络2"
 date:   2018-04-21 15:18:29 +0800
 categories: 机器学习
 tag: DeepLearning学习
@@ -18,7 +18,7 @@ tag: DeepLearning学习
 image和filter的点乘，即为列向量与行向量的矩阵相乘
 
 参见图例：
-![test img](../../../../styles/images/deep_learning/2/fastconv.png)
+![test img](../styles/images/deep_learning/2/fastconv.png)
 
 
 我会在github中上传相应的方法。
